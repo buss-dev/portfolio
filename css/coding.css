@@ -1,0 +1,66 @@
+body {
+    background: #e5e5e5;
+    margin: 0;
+}
+
+nav {
+    background: #14213d;
+    width: 100%;
+    height: 10%;
+}
+
+nav div {
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    margin: 1.5em;
+    width: auto;
+    height: 25%;
+}
+
+nav div a {
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+    background: none;
+    color: #fca311;
+    text-decoration: none;
+}
+nav div a:hover {
+    text-shadow: 0 0 3px khaki;
+    transition: 0.2s;
+    color:khaki;
+    transform: translateY(-0.1em);
+}
+
+.Buss {
+    color: white;
+}
+
+.Buss:hover {
+    color: white;
+}
+
+.port {
+    margin: 1em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.port p {
+    font-size: 1.2em;
+}
+
+.lgs {
+    display: inline-block;
+}
+
+.lgs img {
+    height: 5em;
+    margin: 1em;
+}
+
+.forms {
+    display: inline-block;
+    position: absolute;
+    right: 1em;
+    top: 1.5em
+}
