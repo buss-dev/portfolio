@@ -3,6 +3,11 @@ body {
     margin: 0;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 header {
     background-color: #14213d;
     margin-top: 0;
@@ -12,7 +17,8 @@ header {
 }
 
 header nav a {
-    color: #fca311;
+    color: #fca311; 
+    padding: 0.2em;
 }
 
 ul li, ul a, a {
@@ -31,7 +37,7 @@ ul {
 ul li {
     display: inline;
     margin: 0;
-    padding: 0;
+    padding: 0.2em;
 }
 
 nav {
@@ -81,3 +87,5 @@ nav ul li:hover {
         font-size: 62.5%
     }    
 }
+
+
